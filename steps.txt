@@ -1,0 +1,38 @@
+StackRAG V1 — Steps
+1. Define Stack Overflow tags and dataset scope.
+2. Create PostgreSQL database and schemas.
+3. Build Stack Exchange API extractor.
+4. Store raw questions and answers in PostgreSQL.
+5. Create Airflow DAG for orchestration.
+6. Connect Airflow to the extraction/load pipeline.
+7. Load PostgreSQL data into Databricks.
+8. Build Bronze layer in Databricks.
+9. Build Silver layer for cleaning and normalization.
+10. Build Gold layer for RAG-ready documents.
+11. Implement document chunking.
+12. Generate embeddings using Sentence Transformers.
+13. Create Qdrant collection.
+14. Upload vectors and metadata to Qdrant.
+15. Build semantic retrieval with Qdrant.
+16. Build local LLM generation with Ollama.
+17. Build RAG pipeline: query → retrieve → context → answer.
+18. Add source citations/links to retrieved Stack Overflow posts.
+19. Create a small evaluation dataset.
+20. Measure Recall@K / MRR.
+21. Build a simple Streamlit interface.
+22. Add logging, error handling, and configuration.
+23. Add tests.
+24. Document architecture and setup in GitHub README.
+25. Record a short demo showing the complete pipeline.
+
+
+To run:
+.venv\Scripts\activate
+
+python ingestion\script.py
+
+psql -U postgres -d stackrag -f database\build_rag_documents.sql
+
+python embeddings\build_embeddings.py
+
+python rag\pipeline.py

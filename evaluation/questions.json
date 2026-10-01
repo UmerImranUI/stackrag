@@ -1,0 +1,71 @@
+[
+  {
+    "id": "q01",
+    "question": "How can I process a large JSON file in Databricks?",
+    "expected_source_ids": [
+      "stackoverflow_answer_79176743"
+    ],
+    "key_concepts": [
+      "large JSON file",
+      "Databricks",
+      "PySpark",
+      "Spark",
+      "Results too large"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "What problem can occur when processing a large JSON file in Databricks?",
+    "expected_source_ids": [
+      "stackoverflow_answer_79176743"
+    ],
+    "key_concepts": [
+      "large JSON file",
+      "Databricks",
+      "Results too large",
+      "Spark"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "How can a large JSON dataset be loaded into a Spark DataFrame?",
+    "expected_source_ids": [
+      "stackoverflow_answer_79176743"
+    ],
+    "key_concepts": [
+      "JSON",
+      "Spark DataFrame",
+      "PySpark",
+      "parallelize",
+      "spark.read.json"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "How can very large datasets be split for processing in AWS?",
+    "expected_source_ids": [
+      "stackoverflow_answer_79605159"
+    ],
+    "key_concepts": [
+      "large dataset",
+      "AWS",
+      "split data",
+      "Glue",
+      "EMR"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "How can large AWS datasets be divided into smaller processing units?",
+    "expected_source_ids": [
+      "stackoverflow_answer_79605159"
+    ],
+    "key_concepts": [
+      "AWS",
+      "large dataset",
+      "split data",
+      "month",
+      "day"
+    ]
+  }]
+  
